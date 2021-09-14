@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    	<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-xs-3">
+								<a href="#" class="active" id="login-form-link">Call</a>
+							</div>
+							<div class="col-xs-3">
+								<a href="#" id="register-form-link">Add</a>
+							</div>
+							<div class="col-xs-3">
+								<a href="#" id="list-form-link">List</a>
+							</div>
+							<div class="col-xs-3">
+								<a href="#" id="lastcalls-form-link">Last Calls</a>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="col-lg-12">
+								<form id="login-form" method="post" role="form" style="display: block;">
+									<div>
+										<input type="text" name="call-input" id="call-input" tabindex="1" class="form-control" placeholder="Numarayi Giriniz" value="">
+									</div>
+									<table>
+										<tr>
+											<td class="btn">1</td>
+											<td class="btn">2</td>
+											<td class="btn">3</td>
+										</tr>
+										<tr>
+											<td class="btn">4</td>
+											<td class="btn">5</td>
+											<td class="btn">6</td>
+										</tr>
+										<tr>
+											<td class="btn">7</td>
+											<td class="btn">8</td>
+											<td class="btn">9</td>
+										</tr>
+										<tr>
+											<td class="btn">*</td>
+											<td class="btn">0</td>
+											<td class="btn">#</td>
+										</tr>
+
+
+									</table>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="go-list" id="go-list" tabindex="4" class="form-control btn btn-register" value="Go to List">
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="register-form" method="post" role="form" style="display: none;">
+									<div class="form-group">
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									</div>
+									<div class="form-group">
+										<input type="surname" name="surname" id="surname" tabindex="1" class="form-control" placeholder="Surname" value="">
+									</div>
+									<div class="form-group">
+										<input type="phoneNumber" name="phoneNumber" id="phoneNumber" tabindex="2" class="form-control" placeholder="Phone Number">
+									</div>
+									<div class="form-group">
+										<input type="company" name="company" id="company" tabindex="2" class="form-control" placeholder="Company">
+									</div>
+									
+									
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="submit" name="add-to-list" id="add-to-list" tabindex="4" class="form-control btn btn-register" value="Add to Directory">
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="list-form" method="post" role="form" style="display: none;">
+									<div class="taskBoard">
+										<ul class="allList">
+
+										</ul>
+									</div>
+									
+									
+									
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="1" name="go-to-call" id="go-to-call" tabindex="4" class="form-control btn btn-register" value="Back To Call">
+											</div>
+										</div>
+									</div>
+								</form>
+								<form id="lastcalls-form" method="post" role="form" style="display: none;">
+									<div class="taskBoard">
+										<ul class="lastCall">
+
+										</ul>
+									</div>
+									
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-3">
+												<input type="1" name="go-to-call" id="go-to-call1" tabindex="4" class="form-control btn btn-register" value="Back to Call">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	
+	
+</body>
+</html>
